@@ -2,7 +2,7 @@
     text-decoration: nome;
     margin: 20px  10px  0px;
     text-transform: uppercase;
-    color: blue;
+    color: black;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -11,31 +11,52 @@
 
 .footer{
     height: 150px;
-    background: #051e7a;
+    background: black;
 }
 
 
 
 .footer h2 {
     font-family: Roboto;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     text-transform: uppercase;
-    margin-top: 18px;
+    margin-top: 16px;
     text-align: left;
     color: white;
 }
 
 .footer p {
     font-family: Lato;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: lighter;
     text-align: left;
     text-transform: unset;
     color: white;
-    margin-top: 18px;
+    margin-top: 16px;
 }
 
 .logos-redes {
     margin-top: 16px;
 }
+
+.titulo {
+    color: black;
+    font-size: 54px;
+    text-align: center;
+    margin: 0;
+}
+
+.menu {
+    text-align: right;
+}
+
+.imagem {
+    width: 100%;
+    height: 350px;
+    margin-top: 0pt;
+    text-align: left
+    
+}
+
+
