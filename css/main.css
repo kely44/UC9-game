@@ -90,9 +90,15 @@ d .menu ul li a {
     background-position: center;
 }
 
-.slider-principal {
-    margin-top: 0 auto;
-    background-position: center;
+
+.slider-principal  {
+   
+    height: 100%;
+    width: 90%;
+    margin-top: 50px;
+    margin-bottom: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 
