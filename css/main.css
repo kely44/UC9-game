@@ -73,13 +73,15 @@ d .menu ul li a {
     border: 1px solid #d6d6d6;
 }
 
-.novidades h1 {
+.novidades p {
     color: blue;
     text-decoration: none;
     margin-top: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-weight: bold;
+    font-size: 80;
+    margin-bottom: 100px;
 }
 
 .novidades-img {
@@ -93,13 +95,17 @@ d .menu ul li a {
 
 .slider-principal  {
    
-    height: 100%;
-    width: 90%;
+    height: auto;
+    width: auto;
+    max-width: 2400px;
+    max-height: 600px;
     margin-top: 50px;
-    margin-bottom: 300px;
+    margin-bottom: 100px;
     margin-left: 10px;
     margin-right: 10px;
+    background: center;
 }
+
 
 
 /* Rodape */
