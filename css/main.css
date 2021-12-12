@@ -221,3 +221,12 @@ button {
        entre os rótulos e seus campos de texto */
     margin-left: .5em;
 }
+
+.slider-jogos {
+    background: center;
+    margin-bottom: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 16px;
+    text-align: center;
+}
