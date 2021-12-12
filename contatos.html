@@ -7,6 +7,7 @@
     <title>Game Mania</title>
     <link rel="stylesheet" type="text/css" href="./css/main.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
 </head>
 
 <body>
@@ -16,88 +17,65 @@
                 <img src="./img/logo.png" alt="logo" class="img-logo">
             </div>
         </div>
-        <li>
-            <a href="# "><img src="img/carrinho-de-compras (1).png " class="carrinho "></a>
-        </li>
     </header>
-    <main class="col-100 menu-urls">
-        <div class="header2">
-            <div class="busca">
-                <input placeholder="O que você procura" type="text" />
-            </div>
-            <div class="menu">
-                <ul>
-                    <li>
-                        <a href="./index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="./jogos.html">Jogos</a>
-                    </li>
-                    <li>
-                        <a href="./contatos.html">Contatos</a>
-                    </li>
-                    <li>
-                        <a href="./servicos.html">Serviços</a>
-                    </li>
-                    <li>
-                        <a href="./sobrenos.html">Sobre Nós</a>
-                    </li>
-                    <li>
-                        <a href="./promocoes.html">Promoções</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </main>
     <div class="col-100">
-        <div class="slider-principal">
-            <img src="./img/joystk.jpg" width="980%" height="150%">
-            <img src="./img/logo.jpg" width="980%" width="980%" height="80%">
-            <img src="./img/ccccc.jpg" width="980%" width="980%" height="80%">
+        <div class="slider-contato">
+            <img src="./img/Entre-em-contato.png">
         </div>
     </div>
-    <div class="novidades">
-        <h1> Confira as nossas novidades.</h1>
-        <div class="novidades-img">
-            <img src="./img/71Da26dmOpL._AC_SX385_.jpg" width="35%" height="90%">
-            <img src="./img/71eY04GGUFL._AC_UL200_SR200,200_.jpg" width="35%" height="90% ">
-            <img src="./img/71Ns3cTFNnL._AC_SL1020_.jpg " width="35% " height="90% ">
+    <form action="/formulario-contato" method="post">
+
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="texo" id="nome" name="nome_usuario">
         </div>
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email_usuario">
+        </div>
+        <div>
+            <label for="texto">Texto:</label>
+            <textarea id="texto" name="texto_usuario"></textarea>
+        </div>
+        <div class="button">
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
 
-        <body>
+    <body>
 
-            <!--Rodapé-->
+        <!--Rodapé-->
 
-            <section class="footer ">
-                <div class="container ">
-                    <ul>
-                        <li class="grid-8 ">
-                            <h2> Empresa</h2>
-                            <li class="grid-4 ">
-                                <h2>Contato</h2>
-                            </li>
-                            <a href="# ">
-                                <img src="img/facebook (1).png " class="logos-redes " alt="facebook ">
-                            </a>
-                            <a href="# ">
-                                <img src="img/instagram (1).png " class="logos-redes " alt="instagram ">
-                            </a>
-                            <a href="# ">
-                                <img src="img/whatsapp (1).png " class="logos-redes " alt="watsapp ">
-                            </a>
-                            <a href="# ">
-                                <img src="img/twitter (1).png " class="logos-redes " alt="twitter ">
-                            </a>
+        <section class="footer ">
+            <div class="container ">
+                <ul>
+                    <li class="grid-8 ">
+                        <h2> Empresa</h2>
+                        <li class="grid-4 ">
+                            <h2>Contato</h2>
+                        </li>
+                        <a href="# ">
+                            <img src="img/facebook (1).png " class="logos-redes " alt="facebook ">
+                        </a>
+                        <a href="# ">
+                            <img src="img/instagram (1).png " class="logos-redes " alt="instagram ">
+                        </a>
+                        <a href="# ">
+                            <img src="img/whatsapp (1).png " class="logos-redes " alt="watsapp ">
+                        </a>
+                        <a href="# ">
+                            <img src="img/twitter (1).png " class="logos-redes " alt="twitter ">
+                        </a>
 
-                    </ul>
-                </div>
+                </ul>
+            </div>
 
-            </section>
+        </section>
 
-            <script type="text/javascript " src="https://code.jquery.com/jquery-1.11.0.min.js "></script>
-            <script type="text/javascript " src="https://code.jquery.com/jquery-migrate-1.2.1.min.js "></script>
-            <script type="text/javascript " src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js "></script>
-            <script type="text/javascript " src="./js/main.js "></script>
-        </body>
+        <script type="text/javascript " src="https://code.jquery.com/jquery-1.11.0.min.js "></script>
+        <script type="text/javascript " src="https://code.jquery.com/jquery-migrate-1.2.1.min.js "></script>
+        <script type="text/javascript " src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js "></script>
+        <script type="text/javascript " src="./js/main.js "></script>
+    </body>
 
 </html>
